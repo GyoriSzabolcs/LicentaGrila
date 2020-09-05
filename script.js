@@ -944,8 +944,8 @@ const ProgrammingI = [
     }`,
     answers: [
       { text: `after the call, a has value 2`, correct: true },
-      { text: `after the call, a has value 4`, correct: true },
-      { text: `the definition of square does not serve the purpose of squaring the actual argument in the caller funtion`, correct: false },
+      { text: `after the call, a has value 4`, correct: false },
+      { text: `the definition of square does not serve the purpose of squaring the actual argument in the caller funtion`, correct: true },
       { text: `the definition of square is formally correct`, correct: true }
     ],
     explanation: `The deffinition is formally correct, but the variable is not modified ouside of the method.`
