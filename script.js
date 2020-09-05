@@ -8,6 +8,10 @@ const correctAnswersCounter = document.getElementById('correctAnswerCounter')
 const counterDiv = document.getElementById('counterDiv')
 const submitButton = document.getElementById('submit-btn')
 const explanationText = document.getElementById('explanationText')
+const text1 = document.getElementById("tipic-i-txt");
+const text2 = document.getElementById("tipic-ii-txt");
+const text3 = document.getElementById("tipic-iii-txt");
+const text4 = document.getElementById("abstract-txt");
 
 const algorithmsAndDataStructures = document.getElementById('algorithms-and-data-structures-btn');
 const ComputerNetworks = document.getElementById('computer-networks-btn');
@@ -58,6 +62,10 @@ function hideButtons() {
   programmingIButton.classList.add('hide')
   programmingIIButton.classList.add('hide')
   programmingIIIButton.classList.add('hide')
+  text1.classList.add('hide')
+  text2.classList.add('hide')
+  text3.classList.add('hide')
+  text4.classList.add('hide')
 }
 
 function startSE() {
